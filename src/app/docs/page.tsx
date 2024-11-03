@@ -16,7 +16,7 @@ export default function DocsPage() {
             <nav className="bg-gray-800 p-4 flex justify-between items-center">
                 <Link href="/" className="flex items-center space-x-2">
                     <Image
-                        src="/icon.png"
+                        src="/gitmorph/icon.png"
                         alt="GitMorph Logo"
                         width={40}
                         height={40}
