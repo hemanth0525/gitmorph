@@ -1,9 +1,10 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  basePath: '/gitmorph',
+  images: {
+    unoptimized: true,
+  },
+}
 
-const nextConfig: NextConfig = {
-    basePath: '/gitmorph',
-    publicRuntimeConfig: {
-        basePath: '/gitmorph',
-    },
-};
-export default nextConfig;
+module.exports = nextConfig
