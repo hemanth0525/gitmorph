@@ -2,10 +2,6 @@ import Link from 'next/link'
 import { Github as GitHub } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import getConfig from 'next/config';
-
-const { publicRuntimeConfig } = getConfig();
-const basePath = publicRuntimeConfig.basePath || '';
 
 export default function Navbar({ isScrolled }: { isScrolled: boolean }) {
     return (
@@ -18,7 +14,7 @@ export default function Navbar({ isScrolled }: { isScrolled: boolean }) {
             <div className="container mx-auto px-6 py-3 flex justify-between items-center">
                 <Link href="/" className="flex items-center space-x-2">
                     <Image
-                        src={`${basePath}/icon.png`}
+                        src={typeof window !== 'undefined' && window.location.hostname === 'hemanth0525.github.io' ? `/gitmorph/icon.png` : `/icon.png`}
                         alt="GitMorph Logo"
                         width={40}
                         height={40}
