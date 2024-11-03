@@ -14,7 +14,7 @@ export default function Navbar({ isScrolled }: { isScrolled: boolean }) {
             <div className="container mx-auto px-6 py-3 flex justify-between items-center">
                 <Link href="/" className="flex items-center space-x-2">
                     <Image
-                        src={typeof window !== 'undefined' && window.location.hostname === 'hemanth0525.github.io' ? `/gitmorph/icon.png` : `/icon.png`}
+                        src="/gitmorph/icon.png"
                         alt="GitMorph Logo"
                         width={40}
                         height={40}
