@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/gitmorph',
+  basePath: process.env.NODE_ENV === 'production' ? '/gitmorph' : '',
   images: {
     unoptimized: true,
   },
