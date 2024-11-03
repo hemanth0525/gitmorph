@@ -1,10 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/gitmorph' : '',
-  images: {
-    unoptimized: true,
-  },
-}
-
-module.exports = nextConfig
+import type { NextConfig } from "next";
+const nextConfig: NextConfig = {
+  /* config options here */
+};
+export default nextConfig;
