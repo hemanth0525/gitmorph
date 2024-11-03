@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-
 const nextConfig: NextConfig = {
-  /* config options here */
+    basePath: '/gitmorph',
+    publicRuntimeConfig: {
+        basePath: '/gitmorph',
+    },
 };
-
 export default nextConfig;
