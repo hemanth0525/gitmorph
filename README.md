@@ -1,82 +1,36 @@
-# GitMorph Website
-
-This is the official website for GitMorph, a CLI tool designed to simplify Git operations and enhance developer productivity.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
+First, run the development server:
 
-- Node.js (v14 or later)
-- npm (v6 or later)
-
-### Installation
-
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/yourusername/gitmorph-website.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd gitmorph-website
-   ```
-
-3. Install dependencies:
-   ```
-   npm install
-   ```
-
-### Development
-
-To start the development server:
-
-```
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-The site will be available at `http://localhost:5173`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Building for Production
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-To create a production build:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```
-npm run build
-```
+## Learn More
 
-### Preview Production Build
+To learn more about Next.js, take a look at the following resources:
 
-To preview the production build:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-npm run preview
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Contributing
+## Deploy on Vercel
 
-Contributions to GitMorph are welcome and encouraged! If you'd like to contribute, please follow these steps:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-1. Fork the repository
-2. Create a new branch for your feature
-3. Implement your feature or bug fix
-4. Add or update tests as necessary
-5. Update the documentation
-6. Submit a pull request
-
-Please ensure that your code follows the existing style and that all tests pass before submitting a pull request.
-
-When adding new features, please also update the website to showcase the new functionality. Test your changes locally before submitting a pull request.
-
-## License
-
-This project is licensed under the MIT License.
-
-```
-
-Setup and Execution Steps:
-
-1. Install Node.js and npm if you haven't already.
-2. Create a new directory for your project and navigate to it:
-```
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
