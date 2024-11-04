@@ -80,7 +80,7 @@ function GitCommandsSection() {
     { git: 'git clone <url>', gm: 'gm clone <url>', description: 'Clone a repository' },
     { git: 'git add <files>', gm: 'gm stage <files>', description: 'Stage files for commit' },
     { git: 'git commit -m "<message>"', gm: 'gm save "<message>"', description: 'Commit changes' },
-    { git: 'git pushgit ', gm: 'gm upload', description: 'Push to remote' },
+    { git: 'git push ', gm: 'gm upload', description: 'Push to remote' },
     { git: 'git pull', gm: 'gm download', description: 'Pull from remote' },
     { git: 'git status', gm: 'gm status', description: 'Check status' },
     { git: 'git log', gm: 'gm history', description: 'Check log' },
