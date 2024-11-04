@@ -23,7 +23,7 @@ export default function Footer() {
                         <Github className="w-5 h-5" />
                         <span>CLI</span>
                     </Link>
-                    <Link href="https://github.com/hemanth0525/gitmorph-website" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition-colors flex items-center space-x-1">
+                    <Link href="https://github.com/hemanth0525/gitmorph" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition-colors flex items-center space-x-1">
                         <Github className="w-5 h-5" />
                         <span>Website</span>
                     </Link>
